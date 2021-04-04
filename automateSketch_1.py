@@ -29,7 +29,7 @@ def main():
 
     # Page 4: Stiko Indikation - information regarding the vaccinating rule framework in Germany
     continue_stiko = driver.find_element_by_xpath("/html/body/my-app/div/div[3]/mat-sidenav-container/mat-sidenav-content/appointment-public-view/div/form/div[2]/div/button[2]")
+    continue_stiko.click()
 
-    
 if __name__ == '__main__':
     main()
