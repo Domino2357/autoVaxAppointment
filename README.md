@@ -2,7 +2,7 @@
 
 ## First and Foremost
 I did not write geckodriver.exe! I don't think anyone would have truly believed it, but nethertheless. All the credit belongs to: https://github.com/mozilla/geckodriver/releases.
-Also, if you are a developer, I apologize for this sometimes very verbouse READ.md, it is intendet for people with a more rudimentary knowledge in Coding.
+Also, if you are a developer, I apologize for this sometimes very verbouse READ.md, it is intended for people with a more rudimentary knowledge in Coding.
 
 ## Purpose
 This little script is an inspiration to automate the laborious appointment-making-process for vaccinations against COVID19 in Germany. It should work fine for the Bundesland "Niedersachsen". For other region outside Niedersachsen you will need a different code since every Bundesland seems to have its own website.
