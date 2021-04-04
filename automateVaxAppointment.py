@@ -72,5 +72,6 @@ def main():
         server.login(sender_email, password)
         server.sendmail(sender_email, receiver_email, message)
 
+
 if __name__ == '__main__':
     main()
