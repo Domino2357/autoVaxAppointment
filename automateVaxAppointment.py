@@ -47,9 +47,9 @@ def main():
         # confirm search (Suchen)
         confirm_search = driver.find_element_by_xpath('/html/body/my-app/div/div[3]/mat-sidenav-container/mat-sidenav-content/appointment-public-view/div/form/div[1]/div/div[1]/div[3]/div/button/span[1]')
         confirm_search.click()
-        # appointments available/not available ((Keine) Termine verfügbar)
+        # appointments available/not available (Keine Termine verfügbar)
         get_appointmentstate = WebDriverWait(driver, timeout=5).until(lambda d: d.find_element_by_xpath('/html/body/my-app/div/div[3]/mat-sidenav-container/mat-sidenav-content/appointment-public-view/div/form/div[1]/div/div[1]/div[5]/div[2]/div/div'))
-        no_appointments = (get_appointmentstate.text != 'IZ Leer 2\nAn der Schule 6\n26835 Hesel\n20 km entfernt\ncancel\nKeine Termine verfügbar')
+        no_appointments = (get_appointmentstate.text == 'IZ Leer 2\nAn der Schule 6\n26835 Hesel\n20 km entfernt\ncancel\nKeine Termine verfügbar')
         time.sleep(30)
 
     # the site has done something unexpected when the code reaches this section, hopefully, an appointment is available
