@@ -2,6 +2,8 @@
 
 ## First and Foremost
 I did not write geckodriver.exe! I don't think anyone would have truly believed it, but nethertheless. All the credit belongs to: https://github.com/mozilla/geckodriver/releases.
+This code project is therefore licensed under the Mozilla Public License! https://www.mozilla.org/en-US/MPL/2.0/
+
 Also, if you are a developer, I apologize for this sometimes very verbouse READ.md, it is intended for people with a more rudimentary knowledge in Coding.
 
 ## Purpose
