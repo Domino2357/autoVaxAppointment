@@ -4,7 +4,7 @@
 I did not write geckodriver.exe! I don't think anyone would have truly believed it, but nethertheless. All the credit belongs to: https://github.com/mozilla/geckodriver/releases.
 This code project is therefore licensed under the Mozilla Public License! https://www.mozilla.org/en-US/MPL/2.0/
 
-Also, if you are a developer, I apologize for this sometimes very verbouse READ.md, it is intended for people with a more rudimentary knowledge in Coding.
+Also, if you are a developer, I apologize for this sometimes very verbose READ.md, it is intended for people with a more rudimentary knowledge in Coding.
 
 ## Purpose
 This little script is an inspiration to automate the laborious appointment-making-process for vaccinations against COVID19 in Germany. It should work fine for the Bundesland "Niedersachsen". For other region outside Niedersachsen you will need a different code since every Bundesland seems to have its own website.
